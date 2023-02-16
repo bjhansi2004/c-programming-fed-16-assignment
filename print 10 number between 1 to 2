@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include<conio.h>
+int main() 
+{
+    float num = 1.0;
+    while (num <= 1.90) {
+        printf("%.2f\n", num);
+        num += 0.01;
+    }
+    return 0;
+}
